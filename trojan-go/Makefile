@@ -29,7 +29,7 @@ GO_PKG_LDFLAGS_X:= \
 GO_PKG_TAGS:=full
 
 include $(INCLUDE_DIR)/package.mk
-include $(TOPDIR)/feeds/packages/lang/golang/golang-package.mk
+include $(TOPDIR)/feeds/passwall_packages/golang/golang-package.mk
 
 define Package/trojan-go
   SECTION:=net
