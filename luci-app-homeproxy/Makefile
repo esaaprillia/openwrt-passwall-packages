@@ -9,7 +9,7 @@ LUCI_PKGARCH:=all
 LUCI_DEPENDS:= \
 	+sing-box \
 	+firewall \
-	+kmod-ipt-tproxy
+	+iptables-mod-tproxy
 
 PKG_NAME:=luci-app-homeproxy
 
