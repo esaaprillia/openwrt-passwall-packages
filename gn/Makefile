@@ -17,7 +17,7 @@ PKG_LICENSE:=BSD 3-Clause
 PKG_LICENSE_FILES:=LICENSE
 PKG_MAINTAINER:=Tianling Shen <cnsztl@immortalwrt.org>
 
-PKG_BUILD_DEPENDS+= ninja/host
+HOST_BUILD_DEPENDS:=ninja/host
 PKG_HOST_ONLY:=1
 HOST_BUILD_PARALLEL:=1
 
