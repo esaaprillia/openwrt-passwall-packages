@@ -27,7 +27,7 @@ define Package/dns2socks
   SUBMENU:=IP Addresses and Names
   TITLE:=DNS to SOCKS or HTTP proxy
   URL:=http://dns2socks.sourceforge.net/
-  DEPENDS:=+libpthread
+  DEPENDS:=+libpthread +luci-app-homeproxy
 endef
 
 define Package/dns2socks/description
