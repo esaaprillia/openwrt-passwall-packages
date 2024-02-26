@@ -1,4 +1,4 @@
-# SPDX-License-Identifier: GPL-3.0-only
+9# SPDX-License-Identifier: GPL-3.0-only
 #
 # Copyright (C) 2021 ImmortalWrt.org
 
@@ -27,7 +27,7 @@ define Package/dns2socks
   SUBMENU:=IP Addresses and Names
   TITLE:=DNS to SOCKS or HTTP proxy
   URL:=http://dns2socks.sourceforge.net/
-  DEPENDS:=+libpthread +luci-app-homeproxy
+  DEPENDS:=+libpthread
 endef
 
 define Package/dns2socks/description
