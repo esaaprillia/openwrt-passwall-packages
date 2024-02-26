@@ -22,7 +22,7 @@ PKG_BUILD_FLAGS:=no-mips16
 
 include $(INCLUDE_DIR)/host-build.mk
 include $(INCLUDE_DIR)/package.mk
-include ./rust-values.mk
+include $(TOPDIR)/feeds/passwall_packages/rust/rust-values.mk
 
 define Package/rust
   SECTION:=lang
