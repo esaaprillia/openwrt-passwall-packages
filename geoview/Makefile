@@ -31,7 +31,7 @@ define Package/geoview
   SECTION:=net
   CATEGORY:=Network
   SUBMENU:=IP Addresses and Names
-  DEPENDS+= $(GO_ARCH_DEPENDS)
+  DEPENDS:=$(GO_ARCH_DEPENDS)
 endef
 
 define Package/geoview/description
